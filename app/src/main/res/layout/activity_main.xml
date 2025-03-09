@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/prateleiraEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Número da Prateleira"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/ladoEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Lado (A ou B)" />
+
+    <EditText
+        android:id="@+id/tipoProjetoEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tipo de Projeto" />
+
+    <EditText
+        android:id="@+id/anoEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ano"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/descricaoEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Descrição" />
+
+    <Button
+        android:id="@+id/adicionarButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Adicionar Contêiner" />
+
+    <EditText
+        android:id="@+id/filtroTipoProjetoEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Filtrar por Tipo de Projeto" />
+
+    <EditText
+        android:id="@+id/filtroAnoEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Filtrar por Ano"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/buscarButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Buscar Contêineres" />
+
+    <TextView
+        android:id="@+id/resultadosTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>
